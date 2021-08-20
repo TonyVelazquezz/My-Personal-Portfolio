@@ -1,0 +1,182 @@
+/* ----------- iPad Pro ----------- */
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.home-section .home-text,
+	.home-section .home-img {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+	.home-section .home-text {
+		order: 2;
+		text-align: center;
+		margin-bottom: 20rem;
+	}
+	.home-section .home-text h1,
+	.home-section .home-text h2,
+	.home-section .home-text p,
+	.home-section .home-text .link-item {
+		margin: 0 0 2rem 0;
+	}
+	.home-section .home-img .img-box {
+		margin: 0 auto;
+	}
+	.effect-ring {
+		left: 35%;
+		top: -10%;
+	}
+	.effect-triangle {
+		left: 15%;
+		top: 15%;
+	}
+
+	/* .home-section .home-text p{
+
+	}
+	.home-section .home-text h2{
+
+	}
+	.home-section .home-text h1{
+
+	} */
+}
+
+@media (max-width: 992px) {
+	.portfolio-section .portfolio-item,
+	.service-section .service-item,
+	.about-section .skills .skill-item,
+	.about-section .about-info,
+	.about-section .about-img,
+	.home-section .home-text,
+	.home-section .home-img {
+		flex-basis: 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-section .w-50,
+	.contact-section .contact-item,
+	.portfolio-section .portfolio-item,
+	.service-section .service-item,
+	.about-section .skills .skill-item,
+	.about-section .about-info,
+	.about-section .about-img,
+	.home-section .home-text,
+	.home-section .home-img {
+		flex-basis: 100%;
+		max-width: 100%;
+		justify-content: center;
+	}
+	.home-section .home-text {
+		order: 2;
+	}
+	.home-section .home-text h1,
+	.home-section .home-text h2,
+	.home-section .home-text p,
+	.home-section .home-text .link-item {
+		margin-left: 0;
+	}
+
+	.contact-section .submit-btn,
+	.about-section .about-info,
+	.home-section .home-text {
+		text-align: center;
+	}
+	.home-section .full-screen {
+		padding: 10rem;
+	}
+	.home-section .home-img .img-box {
+		margin: 0 auto 4rem;
+		max-width: 35rem;
+	}
+	.effect-triangle {
+		left: 5%;
+		top: 15%;
+	}
+	.effect-ring {
+		left: 35%;
+	}
+	.effect-dots {
+		bottom: 20%;
+	}
+	.effect-square {
+		bottom: 37%;
+		right: 15%;
+	}
+	.about-section .about-img {
+		padding-bottom: 3rem;
+	}
+	.about-section .about-info p {
+		text-align: start;
+	}
+	.about-section .timeline .timeline-item {
+		margin-bottom: 2rem;
+	}
+	.about-section
+		.timeline
+		.timeline-item:nth-child()
+		.about-section
+		.timeline
+		.timeline-item:last-child {
+		margin-bottom: 0;
+	}
+	.about-section .timeline .timeline-item:nth-child(odd) {
+		padding-right: 1.5rem;
+		text-align: left;
+		padding-left: 7.5rem;
+	}
+	.about-section .timeline .timeline-item:nth-child(even) {
+		padding-left: 7.5rem;
+	}
+	.about-section .timeline:before {
+		left: 3.5rem;
+	}
+	.about-section .timeline .timeline-item:nth-child(odd) .icon {
+		right: auto;
+		left: -6rem;
+	}
+	.about-section .timeline .timeline-item:nth-child(even) .icon {
+		left: -6rem;
+	}
+	.about-section .timeline .timeline-item-inner {
+		margin-right: 2rem;
+	}
+	.contact-section .contact-item .contact-item-inner {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.home-section .full-screen {
+		padding: 5rem;
+	}
+	.home.section .home-img .img-box {
+		min-width: 4rem;
+	}
+	.home-section .home-text h2 {
+		font-size: 4rem;
+	}
+	.effect-ring {
+<<<<<<< HEAD
+		top: -20%;
+		left: 20%;
+	}
+	.effect-circle {
+		top: 40%;
+	}
+	.effect-square {
+		top: 55%;
+		left: 10%;
+	}
+	.effect-triangle {
+		top: 20%;
+	}
+	.effect-dots {
+		left: 85%;
+	}
+=======
+		top: -23%;
+		left: 20%;
+	}
+>>>>>>> 9fa21da0e682ee9e792753e3dfb97a323cb958e0
+}
